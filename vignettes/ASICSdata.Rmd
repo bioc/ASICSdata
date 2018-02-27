@@ -1,0 +1,38 @@
+---
+title: "ASICSdata: An example of 1D NMR spectra data for ASICS package"
+author: "Gaëlle Lefort, Rémi Sevien, Patrick Tardivel and Nathalie Villa-Vialaneix"
+date: "`r Sys.Date()`"
+output:
+  BiocStyle::html_document:
+    toc: FALSE
+vignette: |
+  %\VignetteIndexEntry{ASICSdata}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+---
+
+# Overview of the ASICSdata package
+
+The `ASICSdata` package contains an example of 1D NMR spectra for use with the
+ASICS package. 
+
+It contains a subset of the public datasets from Salek *et al.* (2007). The 
+experiment has been designed to improve the understanding of early stage of 
+type 2 diabetes mellitus (T2DM) development. 
+In the dataset used in `ASICS` package (Tardivel *et al.*, 2017), $^1$H-NMR 
+human metabolome was obtained from 25 healthy volunteers and 25 T2DM patients. 
+Raw 1D Bruker spectral data files were found in the MetaboLights database 
+(https://www.ebi.ac.uk/metabolights/, study MTBLS1). 
+
+
+# References
+
+Salek, R. M., Maguire, M. L., Bentley, E., Rubtsov, D. V., Hough, T., 
+Cheeseman, M., ... & Connor, S. C. (2007). A metabolomic comparison of urinary 
+changes in type 2 diabetes in mouse, rat, and human. *Physiological genomics*, 
+**29**(2), 99-108.
+
+Tardivel P., Canlet C., Lefort G., Tremblay-Franco M., Debrauwer L., Concordet 
+D., Servien R. (2017). ASICS: an automatic method for identification and 
+quantification of metabolites in complex 1D 1H NMR spectra. *Metabolomics*,
+**13**(10): 109. https://doi.org/10.1007/s11306-017-1244-5
