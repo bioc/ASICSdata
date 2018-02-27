@@ -3,24 +3,28 @@
 \docType{data}
 \name{designData}
 \alias{designData}
-\title{Design experiment file from Salek \emph{et al.} (2007)}
-\format{txt file}
+\title{Design of experiment from Salek \emph{et al.} (2007)}
+\format{txt file, separated by spaces, with two columns (sample name and 
+two level condition: control/diabete)}
 \source{
 \url{https://www.ebi.ac.uk/metabolights/MTBLS1}
 }
 \description{
-This file contaning the design experiment of Salek \emph{et al.} (2007)
+File containing the design of experiment of Salek \emph{et al.} (2007)
 study.
 }
 \examples{
 design_path <- system.file("extdata", "design_diabete_example.txt",
                            package = "ASICSdata")
+design <- read.table(design_path, stringsAsFactor = FALSE, header = TRUE)
+head(design)
 }
 \references{
-Salek, R. M., Maguire, M. L., Bentley, E., Rubtsov, D. V., Hough,
-T., Cheeseman, M., ... & Connor, S. C. (2007). A metabolomic comparison of
-urinary changes in type 2 diabetes in mouse, rat, and human.
-\emph{Physiological genomics}, \strong{29}(2), 99-108.
+Salek R.M., Maguire M.L., Bentley E., Rubtsov D.V., Hough T., 
+Cheeseman M., Nunez D., Sweatman B.C., Haselden J.N., Cox R.D., Connor S.C., 
+Griffin J.L. (2007). A metabolomic comparison of urinary changes in type 2 
+diabetes in mouse, rat, and human. \emph{Physiological genomics}, 
+\strong{29}(2), 99-108. DOI: 10.1152/physiolgenomics.00194.2006
 }
 \seealso{
 \code{\link{rawNMRdata}}

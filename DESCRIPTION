@@ -5,7 +5,6 @@ Version: 0.99.0
 Authors@R: c(
     person("Gaëlle", "Lefort", email = "gaelle.lefort@inra.fr", role = c("aut", "cre")),
     person("Rémi", "Sevien", email = "remi.servien@inra.fr", role = "aut"),
-    person("Patrick", "Tardivel", email = "patrick.tardivel@inra.fr", role = "aut"),
     person("Nathalie", "Villa-Vialaneix", email = "nathalie.villa-vialaneix@inra.fr", role = "aut"))
 Description: 1D NMR example spectra and additional data for use with the ASICS 
     package. Raw 1D Bruker spectral data files were found in the MetaboLights 

@@ -4,24 +4,29 @@
 \name{resASICS}
 \alias{resASICS}
 \title{Resultat of metabolite quantification performed with ASICS}
-\format{txt file}
+\format{txt file with 150 rows (quantified metabolites) and 50 columns 
+(spectra), separated by spaces with row names (metabolite names) and column
+names (sample identifiers)}
 \description{
-This dataset contains results of ASICS algorithm (Tardivel \emph{et al.},
-2017) on spectra from Salek \emph{et al.} (2007).
+Results of ASICS (Tardivel \emph{et al.}, 2017) for metabolite quantification
+on spectra from Salek \emph{et al.} (2007)..
 }
 \examples{
-data_path <- system.file("extdata", "resuts_ASICS.txt",
+data_path <- system.file("extdata", "results_ASICS.txt",
                          package = "ASICSdata")
+results <- read.table(data_path, header = TRUE, row.names = 1)
+dim(results)
 }
 \references{
-Salek, R. M., Maguire, M. L., Bentley, E., Rubtsov, D. V., Hough,
-T., Cheeseman, M., ... & Connor, S. C. (2007). A metabolomic comparison of
-urinary changes in type 2 diabetes in mouse, rat, and human.
-\emph{Physiological genomics}, \strong{29}(2), 99-108.
+Salek R.M., Maguire M.L., Bentley E., Rubtsov D.V., Hough T., 
+Cheeseman M., Nunez D., Sweatman B.C., Haselden J.N., Cox R.D., Connor S.C., 
+Griffin J.L. (2007). A metabolomic comparison of urinary changes in type 2 
+diabetes in mouse, rat, and human. \emph{Physiological genomics}, 
+\strong{29}(2), 99-108. DOI: 10.1152/physiolgenomics.00194.2006
 
 Tardivel P., Canlet C., Lefort G., Tremblay-Franco M., Debrauwer
 L., Concordet D., Servien R. (2017). ASICS: an automatic method for
 identification and quantification of metabolites in complex 1D 1H NMR
-spectra. \emph{Metabolomics}, \strong{13}(10): 109.
-\url{https://doi.org/10.1007/s11306-017-1244-5}
+spectra. \emph{Metabolomics}, \strong{13}(10), 109. DOI: 
+10.1007/s11306-017-1244-5
 }
