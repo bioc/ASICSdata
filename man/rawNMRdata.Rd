@@ -9,7 +9,7 @@
 \url{https://www.ebi.ac.uk/metabolights/MTBLS1}
 }
 \description{
-This dataset is a subset of the public datasets from Salek *et al.* (2007).
+This dataset is a subset of the public datasets from Salek \emph{et al.} (2007).
 The experiment has been designed to improve the understanding of early
 stage of type 2 diabetes mellitus (T2DM) development. $^1$H-NMR human
 metabolome was obtained from 25 healthy volunteers and 25 T2DM patients.
