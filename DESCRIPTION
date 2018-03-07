@@ -1,7 +1,7 @@
 Package: ASICSdata
 Type: Package
 Title: Example of 1D NMR spectra data for ASICS package
-Version: 0.99.0
+Version: 0.99.1
 Authors@R: c(
     person("Gaëlle", "Lefort", email = "gaelle.lefort@inra.fr", role = c("aut", "cre")),
     person("Rémi", "Sevien", email = "remi.servien@inra.fr", role = "aut"),
