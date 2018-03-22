@@ -1,5 +1,11 @@
 RELEASE HISTORY OF ASICSdata PACKAGE
 ========================================
 
+CHANGES in ASICSdata VERSION 0.99.2
+Fixed a few typos.
+
+CHANGES in ASICSdata VERSION 0.99.1
+Updated R version dependency from 3.4 to 3.5.
+
 CHANGES in ASICSdata VERSION 0.99.0
 First submitted version to Bioconductor.

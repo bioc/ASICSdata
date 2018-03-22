@@ -1,6 +1,6 @@
 ---
 title: "ASICSdata: 1D NMR spectra for ASICS"
-author: "Gaëlle Lefort, Rémi Sevien and Nathalie Villa-Vialaneix"
+author: "Gaëlle Lefort, Rémi Servien and Nathalie Villa-Vialaneix"
 date: "`r Sys.Date()`"
 output:
   BiocStyle::html_document:

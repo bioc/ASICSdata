@@ -1,14 +1,14 @@
 Package: ASICSdata
 Type: Package
 Title: Example of 1D NMR spectra data for ASICS package
-Version: 0.99.1
+Version: 0.99.2
 Authors@R: c(
     person("Gaëlle", "Lefort", email = "gaelle.lefort@inra.fr", role = c("aut", "cre")),
-    person("Rémi", "Sevien", email = "remi.servien@inra.fr", role = "aut"),
+    person("Rémi", "Servien", email = "remi.servien@inra.fr", role = "aut"),
     person("Nathalie", "Villa-Vialaneix", email = "nathalie.villa-vialaneix@inra.fr", role = "aut"))
 Description: 1D NMR example spectra and additional data for use with the ASICS 
     package. Raw 1D Bruker spectral data files were found in the MetaboLights 
-    database (<https://www.ebi.ac.uk/metabolights/>, study MTBLS1). 
+    database (https://www.ebi.ac.uk/metabolights/, study MTBLS1). 
 Depends: R (>= 3.5)
 License: GPL (>= 2)
 Encoding: UTF-8
